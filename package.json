@@ -1,6 +1,6 @@
 {
   "name": "waiuru-native",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "This is lib react native package",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -40,15 +40,19 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/micaio/waiuru-native",
-  "author": "micaio <micaio@gmail.com> (https://github.com/micaio)",
+  "repository": "https://github.com/micaiovalente/waiuru-native",
+  "author": "micaio <micaiovalente@gmail.com> (https://github.com/micaiovalente)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/micaio/waiuru-native/issues"
+    "url": "https://github.com/micaioValente/waiuru-native/issues"
   },
-  "homepage": "https://github.com/micaio/waiuru-native#readme",
+  "homepage": "https://github.com/micaioValente/waiuru-native#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "lottie-react-native": "^6.1.2",
+    "react-native-linear-gradient": "*"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
